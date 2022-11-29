@@ -1,0 +1,258 @@
+/* body {
+    
+} */
+* {
+    margin : 0;
+    padding: 0; 
+}
+
+/* #two, #three {
+    display: none;
+} */
+
+
+header {
+    /* padding: 20px 20px 20px 20px;
+    display: flex;
+    background-color: grey;
+    padding-left: 20px ;
+    color: blue;
+    text-align: left;
+    align-items: center;
+    font-size: 40px;
+    font-family: 'Julee', cursive;
+    font-weight: bolder;
+    width: 100vw;
+    height:100px; */
+    padding-left: 20px;
+    font-size: 55px;
+    line-height: 100px;
+    color: #ca0c0c;
+    font-weight: 520;
+    font-style: italic;
+    font-family: "Fira Sans Condensed";
+    text-align: left;
+    box-shadow: 12px 12px 2px 1px rgba(151, 149, 147, 0.2);
+
+}
+
+.first{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    border: 0%;
+    margin:0%;
+    background-color: white;
+    color: black;
+    font-family: "Fira Sans Condensed";
+    padding: 50px 0px 80px 0px;
+    box-shadow: 1px 1px 1px 12px rgba(151, 149, 147, 0.2);
+
+}
+
+.second {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    border: 0%;
+    margin:0%;
+    background-color: white;
+    color: black;
+    font-family: "Fira Sans Condensed";
+    padding-top: 5px;  
+    box-shadow: 1px 1px 1px 12px rgba(151, 149, 147, 0.2);
+
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    border: 0%;
+    margin:0%;
+    background-color: white;
+    color: black;
+    font-family: "Fira Sans Condensed";
+    padding-top: 5px; 
+    align-items: center;
+    box-shadow: 1px 1px 1px 12px rgba(151, 149, 147, 0.2);
+
+}
+
+.maintittle {
+    font-size: 40px;
+    padding-top: 120px;
+}
+
+#button1 {
+    padding-top: 50px;
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+}
+
+.button2 {
+    display: flex;
+    position:initial;
+    padding-top: 20px;
+    display: flex; 
+    align-items:baseline;
+    justify-content: center;
+    text-align:start;
+    top: 100px;
+}
+
+#email {
+    padding: 15px 5px 15px 5px;
+}
+
+#getstarted {
+ 
+ cursor: pointer;
+ padding: 15px 15px 15px 15px;
+ font-size: medium;
+ border: 2px solid #ca0c0c;
+ border-radius: 5em
+
+}
+
+#getstarted1 {
+
+    cursor: pointer;
+    padding: 15px 15px 15px 15px;
+    font-size: medium;
+    border: 2px solid #ca0c0c;
+    border-radius: 5em; 
+}
+
+#getstarted2 {
+    cursor: pointer;
+    padding: 15px 15px 15px 15px;
+    font-size: medium;
+    border: 2px solid #ca0c0c;
+    border-radius: 5em;  
+
+}
+
+
+#getstarted3 {
+    cursor: pointer;
+    padding: 15px 15px 15px 15px;
+    font-size: medium;
+    border: 2px solid #ca0c0c;
+    border-radius: 5em;  
+}
+.box {
+    display: grid;
+    grid-template-columns: 260px 260px 260px; 
+    column-gap: 50px;
+    justify-content:center;
+    padding-top: 20px;
+    margin: 0%;
+    line-height: 30px;
+
+}
+
+.planbox1 {
+    background-color: white;
+    border:2px solid grey ;
+    padding: 20px 40px 50px 40px;
+    text-align: justify;
+    color: black;
+    box-shadow: 12px 12px 2px 1px rgba(151, 149, 147, 0.2);
+    border-radius: 1em;
+     
+
+}
+
+.mtplan {
+    text-align: center;
+    font-size: x-large;
+    color: #ca0c0c ;
+    /* font-style: italic; */
+    font-family: "Fira Sans Condensed";   
+    font-weight:550; 
+
+}
+
+.price {
+
+    text-align: justify;
+    color: black ;
+    /* font-style: italic; */
+    font-family: "Fira Sans Condensed";   
+    font-weight: bold; 
+    font-size:large;
+
+}
+
+.noemail{
+    border-bottom-color: orange;
+    /* background-color: brown; */
+}
+
+#empty {
+    color: orange;
+    font-size: 15px;
+    position: relative;
+    left: 20px;
+    text-align: left;
+    justify-content: left;
+    padding-left: 460px;
+
+}
+
+.form {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    box-sizing: border-box;
+    width: 550px;
+    margin-top: 40px;
+}
+
+/* input[type=text] , input [type=email], select  */
+
+input[type=text], input[type=email1], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+input[type=Submit] {
+
+    cursor: pointer;
+    padding: 15px 15px 15px 15px;
+    font-size: medium;
+    border: 2px solid #ca0c0c;
+    border-radius: 5em;  
+}
+
+.lastbutton {
+    display: flex;
+    justify-content: center;
+}
+
+#validInvalidCard {
+    /* display: flex; */
+    color: orange;
+    font-size: 15px;
+    position: relative;
+    left: 20px;
+    text-align: left;
+    justify-content: left;
+}
+
+
+.noValid{
+    border-bottom-color: orange;
+}
