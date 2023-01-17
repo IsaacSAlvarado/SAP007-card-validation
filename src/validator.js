@@ -11,11 +11,11 @@ const validator = {
     } 
 
     let addNumber = finalNumber
-    for (let i = 1; i < finalNumber.length; i= i+2){
+    for (let i = 1; i < finalNumber.length; i= i+2){      
       if (finalNumber[i] > 9) {
-        finalNumber[i] = finalNumber[i] - 9;
+        finalNumber[i] = finalNumber[i] - 9; 
         //console.log (addNumber)
-      }
+      } 
     } 
 
     let suma = addNumber.reduce ((accumulator, currentValue) => 

@@ -43,14 +43,14 @@ function pay (){
     document.getElementById ("three").style.display = "block"
 }
 
-//Aquí está la función que nos permite modificar los dígitos colocados por el usuario en = # excepto los últimos 4 dígitos. 
 let number = ""
 
 const card = document.getElementById ("cardNumber");
 card.addEventListener ("change", (e)=> {
-    e.preventDefault()
+    e.preventDefault();
 number = e.target.value 
 //console.log (number)
+//Aquí está la función que nos permite modificar los dígitos colocados por el usuario en = # excepto los últimos 4 dígitos. 
 card.value = validator.maskify (number) 
 
 const number1 = validator.isValid (number)
